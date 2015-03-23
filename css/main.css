@@ -1,5 +1,6 @@
 .body{
-    background-image: url("../images/background.jpg");
+    background-image: url("http://www.jonesingtogetmarried.com/images/background.jpg");
+    background-size:cover;
 }
 
 .h1{
