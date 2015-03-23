@@ -41,3 +41,7 @@ ul.navigation li {
     display: inline;
     margin:0px 5px;
 }
+
+ul.navigation li:hover {
+    text-decoration: underline;
+}
