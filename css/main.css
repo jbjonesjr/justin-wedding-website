@@ -11,11 +11,13 @@ h1, h2, h3 {
 h2, h3 {
     /*Leelawadee */
     font-family: Arial;
+    margin:8px 0px;
 }
 
 h1 {
     /*Lucida Calligraphy*/
     font-size: 48pt;
+    margin: 16px 0px;
 }
 
 h2 {
