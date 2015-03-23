@@ -44,4 +44,5 @@ ul.navigation li {
 
 ul.navigation li:hover {
     text-decoration: underline;
+    cursor: pointer;
 }
