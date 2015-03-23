@@ -3,8 +3,14 @@ body{
     background-size:cover;
 }
 
-.h1{
-  font-family: sans-serif;
+h1, h2, h3{
+  font-family: sans-serif;text-align: center;
+}
+h2, h3{
+    font-family:Arial;
+}
+h2{
+    text-transform: uppercase;
 }
 
 ul.navigation{
