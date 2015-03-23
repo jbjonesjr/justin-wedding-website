@@ -33,10 +33,11 @@ ul.navigation {
     list-style: none;
     margin: 0px auto;
     padding: 0px;
-    width: 550px;
+    width: 625px;
 }
 
 ul.navigation li {
     color:black;
     display: inline;
+    margin:0px 5px;
 }
