@@ -7,8 +7,15 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.2.min.js" ></script>
     <script type="text/javascript">
          $(document).ready(function(){ 
+           $("#content").hide();
             $("li").click(function(e){
-            $("#content").attr("src","/pages/"+e.target.attributes.href.value);
+            var page = e.target.attributes.href.value;
+            if(page == "#"){
+                $("#content").hide();
+            }else{
+                $("#content").show();
+                $("#content").attr("src","/pages/"+page);
+            }
             });
         });
 
@@ -16,12 +23,12 @@
 </head>
 <body>
 <ul class="navigation">
-    <li href="#">Home</li>
-    <li href="out-story.html">Our Story</li>
-    <li href="bridal-party.html">Wedding Party</li>
-    <li href="gallery.html">Gallery</li>
-    <li href="information.html">Information</li>
-    <li href="registry.html">Registry</li>
+    <li href="#" class="clickable">Home</li>
+    <li href="our-story.html" class="clickable>Our Story</li>
+    <li href="bridal-party.html" class="clickable>Wedding Party</li>
+    <li href="gallery.html" class="clickable>Gallery</li>
+    <li href="information.html" class="clickable>Information</li>
+    <li href="registry.html" class="clickable>Registry</li>
     <li>#jonesin2bmarried</li>
 </ul>
 <h1>Lanier &amp; Justin</h1>
