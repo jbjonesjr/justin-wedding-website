@@ -1,3 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Abel|Arvo|Poiret+One|Great+Vibes);
 
-
+#content{
+  border-width:0px;
+  width:600px;
+  height:900px;
+  background-color: rgba(0,0,0,0.5);
+}
