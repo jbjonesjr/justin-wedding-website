@@ -42,7 +42,7 @@ ul.navigation li {
     margin:0px 5px;
 }
 
-ul.navigation li:hover {
+ul.navigation li.clickable:hover {
     text-decoration: underline;
     cursor: pointer;
 }
