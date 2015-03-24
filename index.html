@@ -8,8 +8,8 @@
     <script type="text/javascript">
          $(document).ready(function(){ 
              $("li").click(function(e){
-            console.log(e);
-            
+            console.log(e.target.attributes.href);
+            $("#content").src=e.target.attributes.href;
         });
          });
 
