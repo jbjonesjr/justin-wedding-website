@@ -10,13 +10,12 @@ h1, h2, h3 {
 }
 
 h2, h3 {
-    /*Leelawadee */
-    font-family: Arial;
+    font-family: 'Arvo', serif;
     margin:8px 0px;
 }
 
 h1 {
-    /*Lucida Calligraphy*/
+    font-family: 'Great Vibes', cursive;
     font-size: 48pt;
     margin: 16px 0px;
 }
