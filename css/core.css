@@ -1,13 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Abel|Arvo|Poiret+One|Great+Vibes);
 
-body {
-  background: url("http://www.jonesingtogetmarried.com/images/background.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
 #content{
   border-width:0px;
   width:650px;
