@@ -4,8 +4,8 @@
   border-width:0px;
   width:650px;
   height:500px;
-  /* background-color: rgba(0,0,0,0.90); */
-  background-color: rgba(256,256,256,0.75); 
+   background-color: rgba(0,0,0,0.90); 
+  /*background-color: rgba(256,256,256,0.75); */
   margin:0 auto;
   display:block;
 }
