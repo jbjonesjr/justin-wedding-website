@@ -37,8 +37,8 @@ ul.navigation {
     list-style: none;
     margin: 0px auto;
     padding: 0px;
-    /*width: 625px;*/
-    width: 575px;
+    width: 625px;
+    /*width: 575px;*/
 }
 
 ul.navigation li {
